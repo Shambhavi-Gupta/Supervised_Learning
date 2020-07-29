@@ -1,17 +1,40 @@
-Supervised learning is good at classification and regression problems, such as determining what category a news article belongs to or predicting the volume of sales for a given future date. In supervised learning, the aim is to make sense of data toward specific measurements. In contrast to supervised learning is the unsupervised learning method, which tries to make sense of the data in itself. There are no external measurements or guidelines in unsupervised learning; the algorithm just has to comprehend the data and detect the patterns or similarities.
+Supervised learning is good at classification and regression problems, such as determining what category
+a news article belongs to or predicting the volume of sales for a given future date. In supervised learning,
+the aim is to make sense of data toward specific measurements. In contrast to supervised learning is the
+unsupervised learning method, which tries to make sense of the data in itself. There are no external
+measurements or guidelines in unsupervised learning; the algorithm just has to comprehend the data 
+and detect the patterns or similarities.
 
 How does supervised learning work?
-Like all machine learning algorithms, supervised learning is based on training. The system is fed with massive amounts of data during its training phase, which instruct the system what output should be obtained from each specific input value. The trained model is then presented with test data to verify the result of the training and measure the accuracy.
+Like all machine learning algorithms, supervised learning is based on training. The system is fed with
+massive amounts of data during its training phase, which instruct the system what output should be obtained 
+from each specific input value. The trained model is then presented with test data to verify the result 
+of the training and measure the accuracy.
 
-In neural network algorithms, the supervised learning process is improved by constantly measuring the resulting output of the model and fine-tuning the system to get closer to its target accuracy. The level of accuracy obtainable depends on two things: the data available and the algorithm in use.
+In neural network algorithms, the supervised learning process is improved by constantly measuring the resulting
+' output of the model and fine-tuning the system to get closer to its target accuracy. The level of accuracy 
+obtainable depends on two things: the data available and the algorithm in use.
+
+
 How to choose the right autoML platform for your enterprise
-A high accuracy is not necessarily a good indication; it could also mean that the model is suffering from overfitting -- i.e., it is overtuned to its particular training data set. Such a data set might perform well in test scenarios but fail miserably when presented with real-world challenges. To avoid overfitting, it is important that the test data is different from the training data to ensure the model is not drawing answers from its previous experience, but instead that the model's inference is generalized.
 
-The training data must also be balanced and cleaned. Garbage or duplicate data will skew the AI's understanding -- hence data scientists must be careful with the data the model is trained on.
+A high accuracy is not necessarily a good indication; it could also mean that the model is suffering from
+overfitting -- i.e., it is overtuned to its particular training data set. Such a data set might
+perform well in test scenarios but fail miserably when presented with real-world challenges. To 
+avoid overfitting, it is important that the test data is different from the training data to ensure 
+the model is not drawing answers from its previous experience, but instead that the model's inference is
+generalized.
 
-The diversity of the data determines how well the AI will perform when presented with new cases; if there are not enough samples in the training data set, the model will falter and will fail to yield any reliable answers.
+The training data must also be balanced and cleaned. Garbage or duplicate data will skew the AI's understanding
+-- hence data scientists must be careful with the data the model is trained on.
 
-The algorithm, on the other hand, determines how that data can be put in use. For instance, deep learning algorithms can be trained to extract billions of parameters from their data and reach unprecedented levels of accuracy, as demonstrated by OpenAI's GPT-3.
+The diversity of the data determines how well the AI will perform when presented with new cases; if there are
+not enough samples in the training data set, the model will falter and will fail to yield any reliable answers.
 
-Apart from neural networks, there are many other supervised learning algorithms, including support vector machines (SVMs), linear regression, logistic regression, Naive Bayes and decision trees.
+The algorithm, on the other hand, determines how that data can be put in use. For instance, deep learning 
+algorithms can be trained to extract billions of parameters from their data and reach unprecedented levels
+of accuracy, as demonstrated by OpenAI's GPT-3.
+
+Apart from neural networks, there are many other supervised learning algorithms, including support vector 
+machines (SVMs), linear regression, logistic regression, Naive Bayes and decision trees.
 
